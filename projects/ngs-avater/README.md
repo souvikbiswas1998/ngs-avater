@@ -3,8 +3,8 @@
 This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.14.
 
 ## Author
-- [Souvik Biswas](github.com/souvikbiswas1998)
-- [Contact me](souvik.biswas1998@gmail.com) if you have any queries or report bugs
+- [Souvik Biswas](https://github.com/souvikbiswas1998)
+- [Contact me](mailto:souvik.biswas1998@gmail.com) if you have any queries or report bugs
 
 ## Project setup instructions
 To start using this project use the following commands:
