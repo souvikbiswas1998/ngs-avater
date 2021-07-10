@@ -1,4 +1,6 @@
-# Hello-World
+# NgsAvater
+
+This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.14.
 
 ## Authors
 - [Souvik Biswas](github.com/souvikbiswas1998)
@@ -33,10 +35,6 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-# NgsAvater
-
-This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.14.
 
 ## Code scaffolding
 
