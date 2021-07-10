@@ -1,10 +1,9 @@
 # NgsAvater
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.13.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.13 by [Souvik Biswas](souvikbiswas1998).
 
-## Authors
-- [Souvik Biswas](github.com/souvikbiswas1998)
-- [Contact me](souvik.biswas1998@gmail.com) if you have any queries or report bugs
+## Author
+- [Contact me](souvikbiswas1998) if you have any queries or report bugs
 
 ## Development server
 

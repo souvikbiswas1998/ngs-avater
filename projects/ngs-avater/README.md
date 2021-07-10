@@ -2,7 +2,7 @@
 
 This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.14.
 
-## Authors
+## Author
 - [Souvik Biswas](github.com/souvikbiswas1998)
 - [Contact me](souvik.biswas1998@gmail.com) if you have any queries or report bugs
 
