@@ -13,7 +13,7 @@ To start using this project use the following commands:
 - `npm install ngs-avater`
 - In the module import `NgsAvaterModule`
 - In the component use `<ngs-avater></ngs-avater>`
-- Input parameters: `photoUrl: string | undefined; name: string; size = '108px'; fontSize: number = 40; isFixedColor: string<#000000>; imageSize: string = '0px'`
+- Input parameters: `photoUrl: string | undefined; name: string; size = '108px'; fontSize: number = 40; isFixedColor: string<#000000>; imageSize: string = '0px'; textColor: string = '#FFFFFF'`
 
 ## License info
 MIT License
@@ -38,7 +38,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-## Code scaffolding
+<!-- ## Code scaffolding
 
 Run `ng generate component component-name --project ngs-avater` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project ngs-avater`.
 > Note: Don't forget to add `--project ngs-avater` or else it will be added to the default project in your `angular.json` file. 
@@ -53,7 +53,7 @@ After building your library with `ng build ngs-avater`, go to the dist folder `c
 
 ## Running unit tests
 
-Run `ng test ngs-avater` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Run `ng test ngs-avater` to execute the unit tests via [Karma](https://karma-runner.github.io). -->
 
 ## Further help
 

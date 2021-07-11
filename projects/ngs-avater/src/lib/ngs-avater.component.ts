@@ -21,9 +21,10 @@ import { Component, OnChanges, OnInit, SimpleChanges } from '@angular/core';
 
     <div *ngIf="showInitials && !photoUrl" class="initials"
         [ngStyle]="{
-            'font-size'       : fontSize+'px',
-            'line-height'     : (fontSize-2)+'px',
-            'letter-spacing'  : letterSpacing+'px'
+            'font-size'       : fontSizeSpliter[0]+fontSizeSpliter[1],
+            'line-height'     : (fontSizeSpliter[0]-2)+'fontSizeSpliter[1]',
+            'letter-spacing'  : letterSpacing+'px',
+            'color'           : textColor
         }"
     >
         {{ initials }}
@@ -44,9 +45,6 @@ import { Component, OnChanges, OnInit, SimpleChanges } from '@angular/core';
     justify-content : center;
     align-items     : center;
   }
-  .circle.initials {
-    color         : #FFFFFF;
-  }
   .circle,img{
       border-radius: 50%;
   }
@@ -64,7 +62,7 @@ export class NgsAvaterComponent implements OnInit, OnChanges {
   public size = '108px';
 
   @Input()
-  public fontSize = 40;
+  public fontSize: string | undefined;
 
   @Input()
   public isFixedColor: string | undefined;
@@ -72,10 +70,14 @@ export class NgsAvaterComponent implements OnInit, OnChanges {
   @Input()
   public imageSize: string | undefined;
 
+  @Input()
+  public textColor = '#FFFFFF';
+
   public showInitials = false;
   public initials!: string;
   public circleColor = '';
   public letterSpacing = 0.5;
+  public fontSizeSpliter = [0, 'px'];
 
   private colors = [
     '#EB7181', // red
@@ -85,6 +87,13 @@ export class NgsAvaterComponent implements OnInit, OnChanges {
   ];
 
   ngOnChanges(changes: SimpleChanges): void {
+    if (this.fontSize) {
+      this.fontSizeSpliter[0] = Number(this.fontSize?.match(/\d+/g)) || 0;
+      this.fontSizeSpliter[1] =  (this.fontSize?.match(/[a-zA-Z]+/g)) as any || 'px';
+    } else {
+      this.fontSizeSpliter[0] = (Number(this.size?.match(/\d+/g)) / 2) || 0;
+      this.fontSizeSpliter[1] =  (this.size?.match(/[a-zA-Z]+/g)) as any || 'px';
+    }
     if (changes.name?.previousValue !== changes.name?.currentValue) {
       this.createInititals();
     }
@@ -92,11 +101,16 @@ export class NgsAvaterComponent implements OnInit, OnChanges {
 
   ngOnInit(): void {
     if (this.fontSize) {
-      if (this.fontSize < 20) { this.letterSpacing = 0.26; }
-      else if (this.fontSize < 40) { this.letterSpacing = 0.52; }
-      else if (this.fontSize < 60) { this.letterSpacing = 1.2; }
-      else if (this.fontSize < 80) { this.letterSpacing = 1.5; }
+      this.fontSizeSpliter[0] = Number(this.fontSize?.match(/\d+/g)) || 0;
+      this.fontSizeSpliter[1] =  (this.fontSize?.match(/[a-zA-Z]+/g)) as any || 'px';
+    } else {
+      this.fontSizeSpliter[0] = (Number(this.size?.match(/\d+/g)) / 2) || 0;
+      this.fontSizeSpliter[1] =  (this.size?.match(/[a-zA-Z]+/g)) as any || 'px';
     }
+    if (this.fontSizeSpliter[0] < 20) { this.letterSpacing = 0.26; }
+    else if (this.fontSizeSpliter[0] < 40) { this.letterSpacing = 0.52; }
+    else if (this.fontSizeSpliter[0] < 60) { this.letterSpacing = 1.2; }
+    else if (this.fontSizeSpliter[0] < 80) { this.letterSpacing = 1.5; }
     if (!this.photoUrl) {
       this.showInitials = true;
       this.createInititals();
