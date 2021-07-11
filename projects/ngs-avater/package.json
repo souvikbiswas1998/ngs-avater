@@ -1,6 +1,6 @@
 {
   "name": "ngs-avater",
-  "version": "0.5.4",
+  "version": "0.5.6",
   "peerDependencies": {
     "@angular/common": "9.x || 10.x || 11.x || 12.x",
     "@angular/core": "9.x || 10.x || 11.x || 12.x"
@@ -16,13 +16,12 @@
   "repository": {
     "type": "git",
     "directory": "ngs-avater",
-    "url": "https://github.com/souvikbiswas1998/ngs-avater"
+    "url": "git://github.com/souvikbiswas1998/ngs-avater"
   },
   "description": "It is to create and customize your avater with your First Name first charecter and your Last Name first charecter. Also you can combine with profile photos and icon with or without background color.",
   "keywords": ["Avater", "Profile With Charecter", "Custom Profile", "Custom Avater", "Custom Avater", "Avater Angular", "Profile With Charecter Angular", "Custom Profile Angular", "Custom Avater Angular", "Custom Avater Angular"],
   "displayName": "ngs-avater",
   "publishConfig": {
-    "@souvikbiswas1998:registry": "https://npm.pkg.github.com",
-    "name": "@souvikbiswas1998/ngs-avater"
+    "registry":"https://npm.pkg.github.com"
   }
 }

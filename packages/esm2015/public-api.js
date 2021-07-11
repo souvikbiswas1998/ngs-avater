@@ -1,6 +1,0 @@
-/*
- * Public API Surface of ngs-avater
- */
-export * from './lib/ngs-avater.component';
-export * from './lib/ngs-avater.module';
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljLWFwaS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3Byb2plY3RzL25ncy1hdmF0ZXIvc3JjL3B1YmxpYy1hcGkudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7O0dBRUc7QUFFSCxjQUFjLDRCQUE0QixDQUFDO0FBQzNDLGNBQWMseUJBQXlCLENBQUMiLCJzb3VyY2VzQ29udGVudCI6WyIvKlxuICogUHVibGljIEFQSSBTdXJmYWNlIG9mIG5ncy1hdmF0ZXJcbiAqL1xuXG5leHBvcnQgKiBmcm9tICcuL2xpYi9uZ3MtYXZhdGVyLmNvbXBvbmVudCc7XG5leHBvcnQgKiBmcm9tICcuL2xpYi9uZ3MtYXZhdGVyLm1vZHVsZSc7XG4iXX0=
