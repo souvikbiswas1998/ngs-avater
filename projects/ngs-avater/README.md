@@ -12,6 +12,7 @@ To start using this project use the following commands:
 - `npm install ngs-avater`
 - In the module import `NgsAvaterModule`
 - In the component use `<ngs-avater></ngs-avater>`
+- Input parameters: `photoUrl: string | undefined; name: string; size = '108px'; fontSize: number = 40; isFixedColor: string<#000000>; imageSize: string = '0px'`
 
 ## License info
 MIT License
