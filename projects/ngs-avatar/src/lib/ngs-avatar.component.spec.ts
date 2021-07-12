@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { NgsAvaterComponent } from './ngs-avater.component';
+import { NgsavatarComponent } from './ngs-avatar.component';
 
-describe('NgsAvaterComponent', () => {
-  let component: NgsAvaterComponent;
-  let fixture: ComponentFixture<NgsAvaterComponent>;
+describe('NgsavatarComponent', () => {
+  let component: NgsavatarComponent;
+  let fixture: ComponentFixture<NgsavatarComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ NgsAvaterComponent ]
+      declarations: [ NgsavatarComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(NgsAvaterComponent);
+    fixture = TestBed.createComponent(NgsavatarComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

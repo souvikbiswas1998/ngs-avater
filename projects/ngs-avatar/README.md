@@ -1,18 +1,18 @@
-# NgsAvater
+# Ngsavatar
 
 This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.14.
 
 ## Author
 - [Souvik Biswas](mailto:souvik.biswas1998@gmail.com)
 - [Contact me](https://github.com/souvikbiswas1998) if you have any queries or report bugs
-- It is an open source project. View this repository on [Github](https://github.com/souvikbiswas1998/ngs-avater).
+- It is an open source project. View this repository on [Github](https://github.com/souvikbiswas1998/ngs-avatar).
 
 ## Project setup instructions
 To start using this project use the following commands:
 
-- `npm install ngs-avater`
-- In the module import `NgsAvaterModule`
-- In the component use `<ngs-avater></ngs-avater>`
+- `npm install ngs-avatar`
+- In the module import `NgsavatarModule`
+- In the component use `<ngs-avatar></ngs-avatar>`
 - Input parameters: `photoUrl: string | undefined; name: string; size = '108px'; fontSize: number = 40; isFixedColor: string<#000000>; imageSize: string = '0px'; textColor: string = '#FFFFFF'`
 
 ## License info
@@ -40,20 +40,20 @@ SOFTWARE.
 
 <!-- ## Code scaffolding
 
-Run `ng generate component component-name --project ngs-avater` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project ngs-avater`.
-> Note: Don't forget to add `--project ngs-avater` or else it will be added to the default project in your `angular.json` file. 
+Run `ng generate component component-name --project ngs-avatar` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project ngs-avatar`.
+> Note: Don't forget to add `--project ngs-avatar` or else it will be added to the default project in your `angular.json` file. 
 
 ## Build
 
-Run `ng build ngs-avater` to build the project. The build artifacts will be stored in the `dist/` directory.
+Run `ng build ngs-avatar` to build the project. The build artifacts will be stored in the `dist/` directory.
 
 ## Publishing
 
-After building your library with `ng build ngs-avater`, go to the dist folder `cd dist/ngs-avater` and run `npm publish`.
+After building your library with `ng build ngs-avatar`, go to the dist folder `cd dist/ngs-avatar` and run `npm publish`.
 
 ## Running unit tests
 
-Run `ng test ngs-avater` to execute the unit tests via [Karma](https://karma-runner.github.io). -->
+Run `ng test ngs-avatar` to execute the unit tests via [Karma](https://karma-runner.github.io). -->
 
 ## Further help
 

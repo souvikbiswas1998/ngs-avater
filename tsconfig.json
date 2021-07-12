@@ -12,9 +12,9 @@
     "declaration": false,
     "downlevelIteration": true,
     "paths": {
-      "ngs-avater": [
-        "dist/ngs-avater/ngs-avater",
-        "dist/ngs-avater"
+      "ngs-avatar": [
+        "dist/ngs-avatar/ngs-avatar",
+        "dist/ngs-avatar"
       ]
     },
     "experimentalDecorators": true,

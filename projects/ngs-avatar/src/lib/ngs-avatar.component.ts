@@ -3,7 +3,7 @@ import { Component, OnChanges, OnInit, SimpleChanges } from '@angular/core';
 
 @Component({
   // tslint:disable-next-line: component-selector
-  selector: 'ngs-avater',
+  selector: 'ngs-avatar',
   template: `
   <div class="circle"
     [ngStyle]="{
@@ -50,7 +50,7 @@ import { Component, OnChanges, OnInit, SimpleChanges } from '@angular/core';
   }
   `],
 })
-export class NgsAvaterComponent implements OnInit, OnChanges {
+export class NgsavatarComponent implements OnInit, OnChanges {
 
   @Input()
   public photoUrl: string | undefined;

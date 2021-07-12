@@ -1,6 +1,6 @@
-# NgsAvater
+# Ngsavatar
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.13 by [Souvik Biswas](https://github.com/souvikbiswas1998). [Contact me](mailto:souvik.biswas1998@gmail.com) if you have any queries or report bugs. Find this package on [npm](https://www.npmjs.com/package/ngs-avater).
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.13 by [Souvik Biswas](https://github.com/souvikbiswas1998). [Contact me](mailto:souvik.biswas1998@gmail.com) if you have any queries or report bugs. Find this package on [npm](https://www.npmjs.com/package/ngs-avatar).
 
 ## Development server
 
