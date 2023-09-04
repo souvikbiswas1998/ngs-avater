@@ -1,5 +1,4 @@
-import { Input } from '@angular/core';
-import { Component, OnChanges, OnInit, SimpleChanges } from '@angular/core';
+import { Component, Input, OnChanges, OnInit, SimpleChanges } from '@angular/core';
 
 @Component({
   // tslint:disable-next-line: component-selector
@@ -50,7 +49,7 @@ import { Component, OnChanges, OnInit, SimpleChanges } from '@angular/core';
   }
   `],
 })
-export class NgsavatarComponent implements OnInit, OnChanges {
+export class NgsAvaterComponent implements OnInit, OnChanges {
 
   @Input()
   public photoUrl: string | undefined;
@@ -77,7 +76,7 @@ export class NgsavatarComponent implements OnInit, OnChanges {
   public initials!: string;
   public circleColor = '';
   public letterSpacing = 0.5;
-  public fontSizeSpliter = [0, 'px'];
+  public fontSizeSpliter: any[] = [0, 'px'];
 
   private colors = [
     '#EB7181', // red
@@ -94,7 +93,7 @@ export class NgsavatarComponent implements OnInit, OnChanges {
       this.fontSizeSpliter[0] = (Number(this.size?.match(/\d+/g)) / 2) || 0;
       this.fontSizeSpliter[1] =  (this.size?.match(/[a-zA-Z]+/g)) as any || 'px';
     }
-    if (changes.name?.previousValue !== changes.name?.currentValue) {
+    if (changes['name']?.previousValue !== changes['name']?.currentValue) {
       this.createInititals();
     }
   }
